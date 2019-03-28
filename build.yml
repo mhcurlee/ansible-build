@@ -1,0 +1,9 @@
+---
+- name: new server build play
+  hosts: localhost
+  roles:
+    - httpd
+  tasks:
+
+
+
