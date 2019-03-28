@@ -1,2 +1,30 @@
 ---
-# tasks file for httpd
+
+- name: install apache
+  yum:
+    name: httpd
+    state: latest
+
+- name: copy image ansible image
+  copy:
+    src: ansible.png
+    dest: /var/www/html/ansible.png
+
+- name: copy terraform image
+  copy:
+    src: terraform.png
+    dest: /var/www/html/terraform.png
+
+- name: copy index.html
+  copy:
+    src: index.html
+    dest: /var/www/html/index.html
+
+
+- name: start and enable httpd
+  service:
+    name: httpd
+    state: running
+    enabled: True
+
+

@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+Test role 
 
 Requirements
 ------------
@@ -35,4 +35,4 @@ BSD
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Marvin Curlee marvin.curlee@gmail.com
