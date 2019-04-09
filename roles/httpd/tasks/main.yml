@@ -15,6 +15,12 @@
     src: terraform.png
     dest: /var/www/html/terraform.png
 
+- name: copy final image
+  copy:
+    src: final.png
+    dest: /var/www/html/final.png
+
+
 - name: copy index.html
   copy:
     src: index.html
